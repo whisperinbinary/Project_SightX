@@ -84,5 +84,5 @@ The focus is on backend intelligence, with a streamlined frontend that supports 
 
 ## 📌 NOTE
 
-### This repository only contains the deployed application of the PROJECT SightX. The original Source Codes are maintained privately in a seperate repository to avoid plagiarism. The c to that repostory is strictly access based. Recruiters or Collaborators may ask for access as per requirements. Furthermore, any error in the execution of the application may be due to user misinterpretation and hence is requested he/she must not declare any errors in development. User may contact the developers in such case. This Project is still under active development and improvements are in progress to deliver a user friendly product.
+### This repository only contains the deployed application of the PROJECT SightX. The original Source Codes are maintained privately in a seperate repository to avoid plagiarism. The access to that repostory is strictly access based. Recruiters or Collaborators may ask for access as per requirements. Furthermore, any error in the execution of the application may be due to user misinterpretation and hence is requested he/she must not declare any errors in development. User may contact the developers in such case. This Project is still under active development and improvements are in progress to deliver a user friendly product.
 
