@@ -49,6 +49,13 @@ The focus is on backend intelligence, with a streamlined frontend that supports 
 
 ---
 
+## 🌍 Impact
+- **Bank Security**: SightX can proactively detect gunpoint robberies in banks. CCTV systems integrated with the platform can automatically alert police without requiring manual intervention, reducing response time and potentially saving lives.  
+- **School Safety**: In schools, the system can monitor for violent activity or weapons, ensuring immediate alerts to authorities and helping prevent tragedies.  
+- **Public Spaces**: Deployment in malls, stations, and other crowded areas enhances public safety by enabling real‑time detection and automated reporting of threats.  
+
+---
+
 ## 📦 How to Use (Deployed App)
 1. Download the **ZIP file** containing the executable from the provided Google Drive link.  
 2. Extract the contents of the ZIP file to a folder on your system.  
@@ -101,7 +108,5 @@ The focus is on backend intelligence, with a streamlined frontend that supports 
 <p align="center">
   <img src="docs/demo.jpeg" width="300"/>
 </p>
-
-
 
 
