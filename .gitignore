@@ -1,0 +1,16 @@
+# Ignore python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore large model weights and datasets
+*.pt
+*.zip
+
+# Ignore build files
+build/
+dist/
+*.spec
