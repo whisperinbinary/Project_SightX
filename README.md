@@ -15,7 +15,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 **SightX** is an advanced AI‑powered surveillance system engineered to detect violent activity in real-time. 
 
@@ -23,61 +23,67 @@ By integrating a state-of-the-art deep learning model—**YOLO**—with a stream
 
 ---
 
-## 🔄 System Workflow
+## System Workflow
 
 Here is a high-level representation of how the SightX detection engine processes real-time surveillance:
 
 ```mermaid
 graph TD
-    A[📹 Live Video Feed] --> B[🖼️ Frame Extraction]
-    B --> C{🧠 AI Detection Engine}
+    A[📹 Live Video Feed] --> B[Frame Extraction]
+    B --> C{AI Detection Engine}
     
     subgraph Deep Learning Pipeline
-        C --> D[🎯 YOLO<br/>Object & Violence Detection]
+        C --> D[YOLO<br/>Object & Violence Detection]
     end
     
-    D --> G{⚔️ Violence Detected?}
+    D --> G{Violence Detected?}
     
     G -- No --> A
     
-    G -- Yes --> H[🚨 Trigger Alerts]
+    G -- Yes --> H[Trigger Alerts]
     
     subgraph Incident Response
-        H --> I[🔴 Red Banner & Confidence Score]
-        H --> J[🔊 Automated Voice Alerts]
-        H --> K[💾 Log to SQLite Database]
+        H --> I[Red Banner & Confidence Score]
+        H --> J[Automated Voice Alerts]
+        H --> K[Log to SQLite Database]
     end
     
-    I --> L[💻 Minimal Desktop UI]
+    I --> L[Minimal Desktop UI]
     J --> L
     K --> L
-    L --> M[📈 Monitor System Stats]
+    L --> M[Monitor System Stats]
 ```
 
 ---
 
-## ⚙️ Key Features
+## Key Features
 
-- 🎥 **Real‑Time Video Feed:** Live monitoring with dynamic bounding box detection overlays.
-- 🧠 **Violence Classification:** Highly accurate threat detection with live confidence scores.
-- 📊 **System Stat Monitoring:** Keep track of hardware performance (RAM, CPU, GPU, FPS).
-- 🗄️ **Automated Incident Logging:** Securely stores timestamped threat events into a local SQLite database.
-- 🚨 **Instant Threat Alerts:** Triggers visual red banners and automated voice alerts upon threat detection.
-- 🎭 **Demo Mode:** Built-in controlled environment for easy demonstrations and testing.
+- **Real‑Time Video Feed:** Live monitoring with dynamic bounding box detection overlays.
+- **Violence Classification:** Highly accurate threat detection with live confidence scores.
+- **System Stat Monitoring:** Keep track of hardware performance (RAM, CPU, GPU, FPS).
+- **Automated Incident Logging:** Securely stores timestamped threat events into a local SQLite database.
+- **Instant Threat Alerts:** Triggers visual red banners and automated voice alerts upon threat detection.
+- **Demo Mode:** Built-in controlled environment for easy demonstrations and testing.
 
 ---
 
-## 🌍 Real-World Impact
+## Real-World Impact
 
 SightX is designed to save lives and reduce response times across various critical sectors:
 
-- 🏦 **Bank Security:** Proactively detects gunpoint robberies. Integrates with existing CCTV systems to automatically alert law enforcement without requiring human intervention.
-- 🏫 **School Safety:** Monitors campuses for weapons or violent altercations, ensuring immediate alerts to authorities to help prevent tragedies.
-- 🏙️ **Public Spaces:** Enhances public safety in crowded areas like malls and transit stations through automated, real-time threat reporting.
+- **Bank Security:** Proactively detects gunpoint robberies. Integrates with existing CCTV systems to automatically alert law enforcement without requiring human intervention.
+- **School Safety:** Monitors campuses for weapons or violent altercations, ensuring immediate alerts to authorities to help prevent tragedies.
+- **Public Spaces:** Enhances public safety in crowded areas like malls and transit stations through automated, real-time threat reporting.
 
 ---
 
-## 🛠 Tech Stack
+## **Achievements & Recognition**
+
+- **SightX** has been represented at the **HACKINDIA SPARK 4 2026 HACKATHON** – *KCC Institute of Technology & Management, Greater Noida, U.P., India*
+
+---
+
+## Tech Stack
 
 ### Core Technologies
 *   **Language:** Python 3.10+
@@ -91,7 +97,7 @@ SightX is designed to save lives and reduce response times across various critic
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 SightX/
@@ -103,18 +109,18 @@ SightX/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 **Quick Launch:** No setup required! Just run the deployed executable.
 
-1. 📥 **[Download SightX App](https://drive.google.com/file/d/1Q38cCR6Du2H9lOr4tFUhCblvo2FHx2fA/view?usp=drive_link)** (ZIP File)
-2. 🗜️ **Extract** the folder and locate `SightX.exe`.
-3. 🚀 **Double-click** to launch the dashboard.
-4. 🧪 Use **Demo Mode** to instantly test the threat detection!
+1. **[Download SightX App](https://drive.google.com/file/d/1Q38cCR6Du2H9lOr4tFUhCblvo2FHx2fA/view?usp=drive_link)** (ZIP File)
+2. **Extract** the folder and locate `SightX.exe`.
+3. **Double-click** to launch the dashboard.
+4. Use **Demo Mode** to instantly test the threat detection.
 
 ---
 
-## 📷 Project Visuals
+## Project Visuals
 
 <p align="center">
   <img src="docs/Screenshot%20(17).png" width="300" alt="Dashboard View 1"/>
@@ -127,7 +133,7 @@ SightX/
 
 ---
 
-## 👥 Contributors
+## Contributors
 
 | Name | Role | Connect |
 | :--- | :--- | :--- |
